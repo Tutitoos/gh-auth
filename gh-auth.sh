@@ -36,7 +36,7 @@ function msg() {
       [[ "$LANG_CHOICE" == "en" ]] && echo "❌ GitHub CLI (gh) is not installed. Download it from https://cli.github.com" || echo "❌ GitHub CLI (gh) no está instalado. Descárgalo desde https://cli.github.com"
       ;;
     ask_token)
-      [[ "$LANG_CHOICE" == "en" ]] && echo -n "🔑 Enter your GitHub token (PAT): " || echo -n "🔑 Introduce tu token de GitHub (PAT): "
+      [[ "$LANG_CHOICE" == "en" ]] && echo -n "🔑 Enter your GitHub token: " || echo -n "🔑 Introduce tu token de GitHub: "
       ;;
     login_done)
       [[ "$LANG_CHOICE" == "en" ]] && echo "🎉 Authentication complete and token saved in GitHub CLI credential store." || echo "🎉 Autenticación completada y token guardado en el credential store de GitHub CLI."

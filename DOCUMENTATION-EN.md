@@ -1,6 +1,12 @@
 ## 🔐 English Version
 
-Script to easily authenticate with GitHub from your terminal using a **Personal Access Token (PAT)**.
+Script to easily authenticate with GitHub from your terminal using a **Personal Access Token**.
+
+## ⚠️ Recommended Permissions (Important!)
+
+👉 Make sure to check the permissions required for Git, Docker, and GitHub Packages to work properly:
+
+➡️ [Jump to the permissions table](./PERMISSIONS-EN.md)
 
 It helps you:
 
@@ -36,7 +42,7 @@ chmod +x gh-auth.sh
 
 * Select the language
 * Enter your GitHub username and email
-* Paste your GitHub token (PAT) when asked
+* Paste your GitHub token when asked
 
 ---
 
@@ -69,6 +75,6 @@ Your token **is not saved to a file**. It is stored securely by the GitHub CLI:
 ➡️ Select language / Selecciona idioma (1 or 2): 1
 🧑‍💻 GitHub username (for git config): paco
 📧 GitHub email (for git config): paco@gmail.com
-🔑 Enter your GitHub token (PAT):
+🔑 Enter your GitHub token:
 ✅ Authentication complete and token saved
 ```
