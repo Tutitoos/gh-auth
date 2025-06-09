@@ -23,13 +23,13 @@ It helps you:
 1. Make the script executable:
 
 ```bash
-chmod +x github-auth.sh
+chmod +x gh-auth.sh
 ```
 
 2. Run the script:
 
 ```bash
-./github-auth.sh
+./gh-auth.sh
 ```
 
 3. Follow the prompts:
